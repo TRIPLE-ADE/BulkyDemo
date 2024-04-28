@@ -6,8 +6,8 @@ namespace MVCDemo.Data
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
-        { 
+        {
         }
-        public DbSet<CategoryModel> CategoryModels { get; set; } = null;
+        public DbSet<CategoryModel> CategoryModels { get; set; }
     }
 }
